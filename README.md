@@ -38,7 +38,7 @@ the above example show how to list paths to all the places where services classe
 * Now copy [webServiceFramework.jar](webServiceFramework.jar) to tomcat9/Webapps/"Your Project Name"/WEB-INF/lib/.
   Tomcat search for servlet classes in classes folder or lib folder.
 
-* Now copy all files inside [WEB-INF/lib](WEB-INF/lib) folder and paste them inside tomcat9/lib/.
+* Now copy all files inside [lib](lib) folder and paste them inside tomcat9/lib/.
   these are all the files you will ever need to create a web service.Our framework is dependent on some of the these           files.
 
 * Now Move the generate and images directory inside your project directory parallel to WEB-INF directory.It's help to           generate services and errors pdfs.
