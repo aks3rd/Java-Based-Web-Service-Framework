@@ -136,6 +136,7 @@ This framework provides following functions:
 
 * If user send raw data in post Request user can just  use it simply as:-
   ```
+  import com.thinking.machines.annotations.*;
   @Path("/add")
   @ResponseType("json")
   public Student add(Student s)
